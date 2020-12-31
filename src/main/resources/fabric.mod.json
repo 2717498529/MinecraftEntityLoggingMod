@@ -1,30 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "minecraftentityloggingmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MinecraftEntityLoggingMod",
+  "description": "A Minecraft Mod that records the state(veclocity,position,health,etc.) of entities.",
   "authors": [
-    "Me!"
+    "lovexyn0827"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://lovexyn0827mc.x173.win",
+    "sources": "https://github.com/2717498529/MinecraftEntityLoggingMod/tree/master"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mc.lovexyn0827.melm.MinecraftEntityLoggingMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
